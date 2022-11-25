@@ -1,0 +1,100 @@
+h1{
+	text-align: center;
+}
+
+.semicircle{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+	height: 100px;
+	border-top-left-radius: 80px ;
+	border-top-right-radius: 80px ;
+	border: 1px solid;
+	background-color: blue;
+	transition: all 1s;
+}
+
+.semicircle:hover{
+	transform: scale(1.2);
+	transform-origin: right;
+}
+
+.smallcircle{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: inline-flex;
+	margin: 20px;
+	background-color: white;
+	position: relative;
+	top: 30px;
+	left: 10px;
+}
+
+.semicircle2{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+	height: 150px;
+	border-bottom-left-radius: 80px ;
+	border-bottom-right-radius: 80px ;
+	border: 1px solid;
+	background-color: blue;
+}
+
+.arm{
+	border: 1px solid;
+	border-radius: 20px;
+	width: 20px;
+	height: 90px;
+	background-color: blue;
+	display: inline-flex;
+}
+
+#arm1{
+	margin-left: -35px;
+	margin-right: 120px;
+}
+
+#arm2{
+	margin-left: 165px;
+	position: relative;
+	bottom: 90px;
+}
+
+.foot{
+	border-radius: 20px;
+	width: 20px;
+	height: 90px;
+	background-color: blue;
+	display: flex;
+	margin-left:auto;
+	margin-right: auto;
+	transition: all 1s;
+}
+
+#foot1{
+	margin-left: 650px;
+	position: relative;
+	bottom: 30px;
+}
+
+#foot1:hover{
+	transform: scale(1.2);
+	transform-origin: right;
+	transform: rotate(45deg);
+}
+
+#foot2{
+	margin-right: 650px;
+	position: relative;
+	bottom: 120px;
+}
+
+#foot2:hover{
+	transform: scale(1.2);
+	transform-origin: left;
+	transform: rotate(-45deg);
+}
